@@ -2,26 +2,13 @@
 simpleOrderSearch
 
 
-I want to assess your ability to create an application and web service. It truly is the bare minimum of knowledge necessary to be successful in this position. I don't want you to spend a lot of time on this. You should be able to do this in an hour or so if the job is right for you.
+To use this and test it download a zip of this repository and extract the files to a folder on your harddrive.  Then double click the "*.sln" file to open Visual Studio.  The OrderData project will arleady be set as the start up project so hit the Start button to run the console app.
 
-Order Search
+• The first question will ask you to enter a 1 to search by OrderId or a 2 to search by MSA and Status.  Enter 1
 
-This programming task consists of building a simple console application to search for orders. Fork this repository and create your application. It should take this input from the user:
+• Next enter the OrderID 37
 
-(Order Number || (MSA && Status)) && CompletionDte
+• You will receive an InternalServerError
 
-The console application will call a service that you create using C#. I have provided some sample data for the application in the JSON file in the data folder.
+This is the first time I've called a Web API controller from c# code.  I've always called Web API services from Javascript, jQuery, AngularJs or Angular, not C#. I tried 4 or 5 different examples on google and each of them had little quirks that never returned the data.  I got back a 404 - Not Found error everytime or a CORS error.  I did enable CORS on the Web API project but I still got back a 404 Error.  I was able to call a get test controller from the browser with success and get back data.
 
-
-
-The file contains an array whose elements represent orders. The data should be defined as a model in your service.
-
-The application calling the service can be a console app. You have total freedom to do what you want but make sure it can do these three things:
-
-• Validate that the user has provided the right criteria to make a search
-
-• Provide an offset and page value for pagination.
-
-• Write the outputs of the service call to a console window. 
-
-Create a pull request once you have it working. I will clone your repository, verify that it works, and evaluate it. Please ensure you include any instructions for running that may be required. 
