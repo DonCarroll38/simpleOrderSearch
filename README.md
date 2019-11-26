@@ -2,7 +2,7 @@
 simpleOrderSearch
 
 
-To use this and test it download a zip of this repository and extract the files to a folder on your harddrive.  Then double click the "*.sln" file to open Visual Studio.  The OrderData project will arleady be set as the start up project so hit the Start button to run the console app.
+To use this and test it download a zip or clone using GIT commands of this repository and extract the files to a folder on your harddrive.  Then double click the "*.sln" file to open Visual Studio.  The OrderData project will arleady be set as the start up project so hit the Start button to run the console app.
 
 • The first question will ask you to enter a 1 to search by OrderId or a 2 to search by MSA and Status.  Enter 1
 
