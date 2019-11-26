@@ -1,0 +1,5 @@
+C:\Users\dcarrol\OrderData\OrderData\OrderData\bin\Debug\OrderData.exe.config
+C:\Users\dcarrol\OrderData\OrderData\OrderData\bin\Debug\OrderData.exe
+C:\Users\dcarrol\OrderData\OrderData\OrderData\bin\Debug\OrderData.pdb
+C:\Users\dcarrol\OrderData\OrderData\OrderData\obj\Debug\OrderData.exe
+C:\Users\dcarrol\OrderData\OrderData\OrderData\obj\Debug\OrderData.pdb
